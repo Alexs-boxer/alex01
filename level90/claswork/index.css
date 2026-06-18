@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#avatar{
+border-radius: 360%;
+width:20px;
+height:20px;
+position:relative;
+left:10px;
+top: 10px;
+border: 1px,solid,rgb(255,255,255);
+}
+#phone{
+    border-radius: 15%;
+    border:1px,solid,rgb(255, 255, 255);
+    width:200px;
+    height:50px;
+    background-color: rgb(174, 107, 236);
+}
+#p1{
+   color: rgb(255, 255, 255);
+   font-size:5px;
+   position: relative;
+   bottom:20px;
+   left:35px;
+}
+#samuel{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom:20px;
+    left:35px;
+}
+#phone1{
+    border:1px,solid;
+    width:200px;
+    height: 500px;
+}
+.text{
+    border:solid,0px,black;
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+    color: blueviolet;
+    width: 50px;
+    height:50px
+}
+.img{
+    width:50px;
+    height:50px;
+    border-radius: 15px;
+    position: relative;
+    left:30px;
+}
+.text1{
+    border:solid,0px,black;
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+    color: #858686;
+}

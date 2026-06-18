@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div{
+    border:black;
+}
+@keyframes beat{
+   0%{
+    transform:rotate(-45deg),scale(1);
+   }
+   25%{
+    transform: rotate(-45deg),scale(1.15);
+   }
+   40%{
+    transform: rotate(-45deg),scale(1)
+   }
+   
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* დავალება 1 — დაუწკაპავი ლინკი */
+  a:link {
+    color: blue;              /* ლურჯი ტექსტი */
+    text-decoration: none;    /* ხაზგასმა გამორთულია */
+  }
+
+  /* დავალება 2 — ნახული ლინკი */
+  a:visited {
+    color: purple;            /* მეწამული ტექსტი */
+  }
+
+  /* დავალება 3 — მაუსის გადატარება */
+  a:hover {
+    background-color: yellow; /* ყვითელი ფონი */
+    color: black;             /* შავი ტექსტი */
+  }
+
+  /* დავალება 4 — დაჭერის მომენტი */
+  a:active {
+    color: red;               /* წითელი ტექსტი */
+    transform: scale(0.95);   /* ოდნავ დაპატარავებული */
+  }
+</style>
+</head>
+<body>
+
+<h2>ლინკის ფსევდო-კლასების მაგალითი</h2>
+<p>
+  <!-- დავალება 5 — ერთი ლინკი, რომელიც ყველა ეფექტს აჩვენებს -->
+  <a href="https://www.google.com" target="_blank">გადადი Google-ზე</a>
+</p>
+
+</body>
+</html>

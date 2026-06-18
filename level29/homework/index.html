@@ -1,0 +1,77 @@
+<!---ბლოკური ელემენტები:
+ყოველთვის იწყება ახალი ხაზიდან.
+იკავებს მთელ ხელმისაწვდომ სიგანეს.
+შეიძლება შეიცავდეს სხვა ბლოკურ ან ხაზობრივ ელემენტებს.
+მაგალითები: <div>, <p>, <h1>-<h6>, <ul>, <ol>, <li>, <section>, <article>--->
+<!--ხაზობრივი ელემენტები:
+არ იწყება ახალი ხაზიდან.
+იკავებს მხოლოდ იმდენ სიგანეს, რამდენიც საჭიროა.
+შეიძლება შეიცავდეს მხოლოდ ტექსტს ან სხვა ხაზობრივ ელემენტებს.
+მაგალითები: <span>, <a>, <strong>, <em>, <img>, <br>--->
+<!--სემანტიკური ტეგები:
+მიუთითებს შინაარსის მნიშვნელობას და სტრუქტურას.
+მაგალითები: <header>, <nav>, <main>, <section>, <article>, <footer>
+არასემანტიკური ტეგები:
+არ მიუთითებს შინაარსის მნიშვნელობას.
+მაგალითები: <div>, -->
+
+    <!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>ჩემი პირველი ვებსაიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>alex developer</h1>
+    </header>
+
+    <nav>
+        <a href="#about">wep developing good for you</a>
+        <a href="#services">goa</a>
+        <a href="#contact">alexx adanaia</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>wep developing good for you</h2>
+            <p>goal orinted academy </p>
+        </section>
+
+        <section id="services">
+            <h2>goa</h2>
+            <ul>
+                <li>web developer</li>
+                <li>fronthend</li>
+                <li>beakhend</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>f:alexx adanaia</h2>
+            
+        </section>
+    </main>
+
+
+</body>
+</html>

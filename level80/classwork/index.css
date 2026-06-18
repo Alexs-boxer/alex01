@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 18px;
+}
+
+a {
+   display:flex;
+ 
+    color: rgb(255, 255, 255);
+}
+.search {
+    display: flex;
+    align-items: center;
+    background: #010117;
+  
+    padding: 5px;
+}
+input{
+    background-color:#010226 ;
+}
+
+
+
+
+

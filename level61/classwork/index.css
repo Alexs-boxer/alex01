@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button{
+    background-color: rgb(36, 255, 117);
+    color: rgb(9, 130, 235);
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 5s;
+}
+
+button{
+    background-color: rgb(127, 4, 208);
+    color: rgb(8, 8, 8);
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 40s;
+}
+
+button{
+    background-color: rgb(8, 44, 21);
+    color: rgb(198, 206, 213);
+    border: solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 60s;
+}
+button:hover{
+    background-color: rgb(147, 140, 163);
+    transform: scale(10.3);
+    transform: rotate(360deg);
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(foni.svg);
+background-color: rgb(41, 41, 61);
+}
+
+#d1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+width: 100px;
+height: 100px;
+}
+#p1{
+    color:white;
+}
+#p2{
+color:white;
+}
+#p3{
+color:white;
+}
+#p4{
+ color:white;
+}
+#d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+} 
+
+    
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p1{
+color: rgb(3, 74, 74);
+}
+#p2{
+color:rgb(174, 250, 174);
+}
+#p3{
+color:grey
+}
+#d1{
+   border:solid;
+}
+
+#d2{
+   border: solid;
+   background-color:rgb(3, 106, 106);
+   color:rgb(255, 255, 255);
+}
+#p5{
+    width:120;
+}
+#button{
+    background-color: rgb(105, 228, 105);
+    border:solid;
+    color:rgb(255, 255, 255);
+    width:100px;
+    border:solid;
+}
+#d3{
+background-color:rgb(3, 106, 106);
+color:white;
+}

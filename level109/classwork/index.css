@@ -1,0 +1,26 @@
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+}
+#main{
+    background-color: rgb(13, 1, 235);
+    color: white;
+    width: 100px;
+    height:200px;
+}
+#box2{
+    border-radius:50%;
+    border:1px,black,solid;
+}
+#p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

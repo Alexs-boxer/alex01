@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 0;
+}
+
+#img1{
+    width: 50px;
+    height: 50px;
+}
+#d1{
+    background-color: rgb(198, 133, 11);
+    width: 180px;
+    height: 300px;
+}
+#sedans{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:10px
+}
+#text1{
+    position: relative;
+    top:15px;
+    height:10px;
+    color:rgb(255, 255, 255)
+}
+#button1{
+    background-color: rgb(255,255,255);
+    color:rgb(198, 133, 11);
+    position: relative;
+    top: 150px;
+    border-radius:20px ;
+    width: 100px;
+    height: 30px;
+   
+}
+
+#d2{
+   background-color: rgb(3, 46, 58); 
+   width: 180px;
+   height: 300px;
+   position: relative;
+   left: 180px;
+   bottom:300px;
+}
+#suvs{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:10px
+}
+#img{
+    width: 50px;
+    height: 50px;
+}
+#text2{
+    position: relative;
+    top:15px;
+    height:10px;
+    color:rgb(255, 255, 255)
+}
+#button2{
+    background-color: rgb(255,255,255);
+    color:rgb(3, 46, 58);
+    position: relative;
+    top: 150px;
+    border-radius:20px ;
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,59 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+
+#li1{
+    list-style:square,inside,non ;
+}
+#li2{
+    list-style:lower-alpha,inside,non ;
+}
+
+
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+
+#ul1{
+    list-style-type: decimal ;
+}
+#ul2{
+    list-style-type: decimal-leading-zero;
+}
+#ul3{
+    list-style-type: lower-roman;
+}
+#ul4{
+    list-style-type: upper-roman;
+}
+#li1{
+    list-style-type: disc;
+}
+#li2{
+    list-style-type:none ;
+}
+#li3{
+    list-style-type: circle;
+}
+#li4{
+    list-style-type: square;
+}
+#a{
+    list-style-position: inside;
+}
+#b{
+    list-style-position: outside;
+}
+#c{
+    list-style-image:url(Tbilisi.jpg) ;
+}

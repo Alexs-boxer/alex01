@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100vh;
+height:100vh;
+}
+#main{
+   position: relative;
+   left:300px;
+   top:30px;
+}
+#p1{
+    position: relative;
+    left:300px;
+    top:25px;
+}
+
+#text{
+  font-size:10px;
+  position: relative;
+  left:285px;
+  top:30px;
+}

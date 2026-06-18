@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+  #gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      red,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      purple,
+      pink,
+      yellow,
+      black
+    );
+   
+  }
+
+#circular{
+    background: radial-gradient(circle,rgba(251, 119, 63, 1) 0%, rgba(210, 252, 70, 1) 100%);  
+   
+}
+#color{
+    background: linear-gradient(90deg,rgba(134, 155, 42, 1) 0%, rgba(238, 242, 7, 1) 94%);
+}

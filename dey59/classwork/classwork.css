@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#llabel1{
+    color:rgb(188, 36, 36);
+}
+#label2{
+    color: #000;
+}
+#label3{
+    color: aqua;
+}

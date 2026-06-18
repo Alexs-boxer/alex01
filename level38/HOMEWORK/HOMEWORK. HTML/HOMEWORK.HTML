@@ -1,0 +1,50 @@
+<!--- Inline CSS — სტილი პირდაპირ ელემენტის style ატრიბუტში-->
+
+<!--Internal CSS — <style> ბლოკი <head>-ში (ეს მეთოდი გამოვიყენე შენს საიტში)
+
+<head>
+  <style>
+    /* აქ წერ ყველა წესს ამ გვერდისთვის */
+    h1 { color: #7c5cff; } /* დეკლარაცია selector+property:value */
+  </style>
+</head>-->
+
+<!--External CSS — გარე .css ფაილი <link>-ით
+
+<link rel="stylesheet" href="/assets/styles.css"> -->
+
+<!---}
+Rule (წესი): selector { ... } ბლოკი.
+
+Declaration (დეკლარაცია): შიგნით თითო property: value; წყვილი.
+
+Property (კუთვნილება): რა თვისებას ვცვლით ( напр. color, margin).
+
+Value (მნიშვნელობა): კონკრეტული მნიშვნელობა (#fff, 16px, flex, auto…).-->
+
+<!--სრული, კომენტარიანი ერთფაილიანი HTML მზად არის და გახსნილია გვერდით Canvas-ში სახელად “Internal CSS – Single-file Demo Site (ქართული კომენტარებით)”.
+მახასიათებლები, რაც შიგნით გამოიყენე:
+
+Typography & Text: font-family, line-height, letter-spacing, text-transform, text-shadow
+
+Colors & Backgrounds: color, background (gradient-ები, conic/radial/linear)
+
+Box model: margin, padding, border, border-radius, outline, outline-offset, box-shadow
+
+Layout: display: flex, display: grid, place-items, gap, position: sticky, z-index, overflow
+
+Sizing: width, max-width, height, min-height, clamp(), calc()
+
+Effects & Motion: transition, transform, animation + @keyframes, filter, backdrop-filter
+
+Forms: appearance, :focus-visible, ::placeholder
+
+Selectors: პსევდო-ელემენტები ::before, პსევდო-კლასები :hover, :focus, :focus-visible, ატრიბუტული სელექტორები [data-role]
+
+Modern Cascade: @layer, CSS ცვლადები var()
+
+Responsive: @media breakpoints
+
+თუ გინდა, იგივე გვერდი ადვილად გადავიყვანოთ external CSS ვარიანტზე ან დავამატოთ Sass ვერსია — შემიძლია ახლავე გადაგიყვანო. ასევე შემიძლია დავამატო პატარა „ჰამბურგერ“ მენიუს JS.
+
+გინდა რომელიმე სექციაზე უფრო ღრმა განხილვა ან დავამატო სპეციფიურ კუთვნილებებს ( напр. grid-template-areas, :has(), container queries)? თქვი და დავამატებ.

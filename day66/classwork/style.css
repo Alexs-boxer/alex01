@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex-container{
+    color:rgb(28, 35, 43)
+}
+div{
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+body{
+   background-color:hsl(30, 38%, 92%) ;
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   height: 100vh; 
+}
+p{
+  background-color:hsl(0, 0%, 100%) ;
+}
+button{
+  border:hsl(158, 42%, 18%) ;
+}

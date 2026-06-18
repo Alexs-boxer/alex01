@@ -1,0 +1,56 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vh;
+    height:100vh;
+}
+#main{
+   font-size: 30px;
+    position: relative;
+    top:50px;
+    left:100px
+}
+#img1{
+    position: relative;
+    left:470px;
+    bottom:150px;
+    width:300px;
+    height:300px
+}
+#mockup{
+    position: relative;
+    left:470px;
+    bottom:400px;
+    width: 250px;
+    height:250px;
+}
+#small{
+    font-size:10px;
+    position: relative;
+    bottom: 500px;
+}
+#button{
+    color:white;
+    font-size:10px;
+    border-radius:30%;
+    border:0px;
+    background: #125724;
+    background: linear-gradient(0deg,rgba(18, 87, 36, 1) 24%, rgba(93, 184, 191, 1) 85%);
+    position: relative;
+    bottom: 500px;
+}
+#big{
+    position:relative;
+    bottom:400px;
+}
+
+#text{
+position:relative;
+bottom:380px;
+font-size:10px;
+}

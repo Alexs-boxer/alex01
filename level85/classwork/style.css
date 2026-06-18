@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-p:blue;
+    ---background:red;
+}
+
+#h1{
+    color:var(---background)
+}
+p{
+    background-color: var(--color-p);
+}
